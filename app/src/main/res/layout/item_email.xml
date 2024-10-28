@@ -6,7 +6,6 @@
     android:padding="12dp"
     android:gravity="center_vertical">
 
-    <!-- Profile Picture -->
     <ImageView
         android:id="@+id/profileImageView"
         android:layout_width="48dp"
@@ -23,7 +22,6 @@
         android:orientation="vertical"
         android:layout_weight="1">
 
-        <!-- Sender -->
         <TextView
             android:id="@+id/senderTextView"
             android:layout_width="wrap_content"
@@ -32,7 +30,6 @@
             android:textStyle="bold"
             android:textSize="16sp" />
 
-        <!-- Subject -->
         <TextView
             android:id="@+id/subjectTextView"
             android:layout_width="wrap_content"
@@ -40,7 +37,6 @@
             android:text="Subject"
             android:textSize="14sp" />
 
-        <!-- Preview -->
         <TextView
             android:id="@+id/previewTextView"
             android:layout_width="wrap_content"

@@ -13,11 +13,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // Set up RecyclerView
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
         recyclerView.layoutManager = LinearLayoutManager(this)
 
-        // Create a list of dummy email data
+        // dummy
         val emailList = listOf(
             Email("Welcome to our app!", "Thank you for signing up...", "Support", R.drawable.ic_profile_placeholder),
             Email("Your Weekly Summary", "Here’s what happened this week...", "Updates",R.drawable.ic_profile_placeholder) ,
@@ -31,7 +30,6 @@ class MainActivity : AppCompatActivity() {
             Email("Your Weekly Summary", "Here’s what happened this week...", "Updates",R.drawable.ic_profile_placeholder)
         )
 
-        // Set the adapter
         val emailAdapter = EmailAdapter(emailList)
         recyclerView.adapter = emailAdapter
     }

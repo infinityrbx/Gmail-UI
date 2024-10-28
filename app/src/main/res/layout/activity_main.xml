@@ -5,12 +5,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- Toolbar -->
-
-    <!-- SwipeRefreshLayout for Pull to Refresh -->
-
-    <!-- Floating Action Button for Compose Email -->
-
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
@@ -45,7 +39,6 @@
         android:clipChildren="false"
         android:paddingTop="60dp">
 
-        <!-- RecyclerView to display emails -->
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerView"
             android:layout_width="match_parent"
